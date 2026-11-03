@@ -5,7 +5,7 @@ return {
       servers = {
         php_lsp = {
           mason = false,
-          cmd = { "php-lsp" },
+          cmd = { "phpantom_lsp" },
           filetypes = { "php" },
           root_markers = { "composer.json", ".git" },
         },
